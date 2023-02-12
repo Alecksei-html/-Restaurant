@@ -3,108 +3,123 @@
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Наш Ресторан - Гармония Вкуса</title>
-    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="Css/css.css">
     <link rel="stylesheet" type="text/css" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <script src="jquaery/jquery-3.0.0.min.js"></script>
-    <script src="js/slide.js"></script>
-    <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="bootstrap-4.5.3-dist/scss/bootstrap.scss"></script>
 </head>
 <body>
     <header>
         <div class="top-header">
              <div class="top-menu">
          <nav class="navbar navbar-expand-lg navbar-light bg-black">
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="col">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item activ ">
                         <a class="nav-link" href="main.html">Главная</a>
-                    </li> <li class="nav-item">
+                    </li> 
+                    <li class="nav-item">
                         <a class="nav-link" href="about_us.html">Доставка</a>
-                    </li> <li class="nav-item">
+                    </li> 
+                    <li class="nav-item">
                         <a class="nav-link" href="menu.html">Меню</a>
-                    </li> <li class="nav-item">
+                    </li> 
+                    <li class="nav-item">
                         <a class="nav-link" href="zakaz.html">Заказать банкет</a>
-                    </li> <li class="nav-item">
+                    </li> 
+                    <li class="nav-item">
                         <a class="nav-link" href="contacts.html">Контакты</a>
-                    </li> <li class="nav-item">
+                    </li> 
+                    <li class="nav-item">
                         <a class="nav-link" href="reviews.html">Отзывы</a>
                     </li>
                 </ul>
             </div>
             </div>
-           
+            <div class="col">
+                <div class="logo">
+                 <a href="main.html" title="Наш Ресторан - Гармония Вкуса"><img src="image/Logo.png" alt="Наш Ресторан - Гармония Вкуса" class="png"></a>
+             </div>
+            </div>
                 <div class="col">
                     <div class="contact">
-                        <div class="tel">Номер для заказа:+ 38(0хх)хх-хх-ххх</div>
+                        <div class="tel"><b>Номер для заказа:+ 38(0хх)хх-хх-ххх</b></div>
                     </div>
                 </div>
                 </nav>
                 </div>
                 </div>
-                <hr class="hr-line">
-        <div class="content-header">
+
+        <!-- <div class="content-header">
              <div class="logo">
                  <a href="main.html" title="Наш Ресторан - Гармония Вкуса"><img src="image/Logo.png" alt="Наш Ресторан - Гармония Вкуса" class="png"></a>
              </div>
-                    </div>
-    </header>
-    <hr class="hr-line">
+                    </div> -->
+                </header>
+                
     <ul class="breadcrumb">
        <li><a href="main.html">Главная</a></li>
     </ul>
-    <div id="slider" class="slider">
-        <ol class="slider_indicators">
-        <li class="slider_indicator slider_indicator_active" data-slide-to="0"></li>
-        <li class="slider_indicator" data-slide-to="1"></li>
-        <li class="slider_indicator" data-slide-to="2"></li>
-        <li class="slider_indicator" data-slide-to="3"></li>
-        </ol>
-        <div class="slider_items">
-        <div class="slider_item slider_item_1 slider_item_active">
-            <div class="slider_text">
-                <h1>"Наш Ресторан - Гармония вкуса""</h1>
-                <h2>Подзаголовок h2</h2>
-                <p>Текст</p>
+   
+    <div class="container">
+        <div class="slider">
+            <div class="slidercontent">
+                <img src="image/table-1.jpg" alt="lobby">
+                <div class="slidercontent__descr">
+                
+                </div>
             </div>
-            <img src="image/banner.jpg" alt="slide1">
-        </div>
-        <div class="slider_item slider_item_2 slider_item_active">
-        <div class="slider_text">
-                <h1>Организация свадеб и банкетов</h1>
-                <h2>Подзаголовок h2</h2>
-                <p>Текст</p>
+
+            <div class="slidercontent">
+                <img src="image/kitchen-2.jpg" alt="kitchen">
+                <div class="slidercontent__descr">
+                    
+                </div>
             </div>
-            <img src="image/banket.jpg" alt="slide2">
-        </div>
-        <div class="slider_item slider_item_3 slider_item_active">
-            <div class="slider_text">
-                <h1>Доставка из ресторана</h1>
-                <h2>Подзаголовок h2</h2>
-                <p>Текст</p>
+
+            <div class="slidercontent">
+                <img src="image/banket-1.jpg" alt="banket">
+                <div class="slidercontent__descr">
+
+                </div>
             </div>
-            <img src="image/dostavka.jpg" alt="slide3">
+
+            <div class="slidercontent">        
+                <img src="image/deliveri-1.jpg" alt="delivery">
+                <div class="slidercontent__descr">
+                    
+                </div>
+            </div> 
+
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+            <div class="tabheader">
+                <div class="tabheader__items">
+                    <div style="text-align:center">
+                        <span class="dot dot_active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </div>
+                </div>
+            </div>
         </div>
         </div>
-        <a class="slider_control slider_control_prev" href="#" role="button"></a>
-        <a class="slider_control slider_control_next" href="#" role="button"></a>
-        </div>
-        <hr class="hr-line">
+    </div>
     <footer>
                             <div class="footer">
                                 <div class="row">
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-lg-3 col-md-3" style="color: white">
                                                     <div style="padding: 4px 0">
-                                            <p>&copy; 2021 "Our-restaurant.com.ua" - Гармония Вкуса</p>
-                                                        <img src="image/visa-50x30.png" alt="Visa">
-                                                        <img src="image/mastercard-50x30.png" alt="Master card">
-                                                        <img src="image/privat24-50x30.png" alt="Privat24">
+                                            <p><b>&copy; 2021 "Our-restaurant.com.ua" - Гармония Вкуса</b></p>
+                                                        <img src="image/visa.png" alt="Visa">
+                                                        <img src="image/mastercard.png" alt="Master card">
+                                                        <img src="image/cprivat24.png" alt="Privat24">
                             <div class="web-links">                       
                             Мы в соцсетях: 
                             <ul>
@@ -113,14 +128,14 @@
                     </div>
                                     </div>
                                 </div>
-                                    <div class="col-lg-3 col-md-3">
+                                    <div class="col-lg-3 col-md-3" style="color: white">
                                                     <div style="padding: 4px 0">
                                                         <p><b>Контакты:</b></p>
                                                         "+38(0хх)ххх-хх-хх"<br>
                                                         "+38(0хх)ххх-хх-хх"
                                     </div>
                                 </div>
-                                    <div class="col-lg-3 col-md-3">
+                                    <div class="col-lg-3 col-md-3" style="color: white">
                                                     <div style="padding: 4px 0">
                                                         <p><b>График роботы:</b></p>
                                                         "Пн-Пт: хх:00 - хх:00"<br>
@@ -128,7 +143,7 @@
                                                         "Вс: хх:00 - хх:00"
                                     </div>
                                 </div>
-                                    <div class="col-lg-3 col-md-3">
+                                    <div class="col-lg-3 col-md-3" style="color: white">
                                                     <div style="padding: 4px 0">
                                                         <p><b>Our-restaurant.com.ua</b></p>
                                    <ul>    
@@ -146,5 +161,10 @@
                                 <div class="clear">
                             </div>
                             </footer>
+                            <!-- <script src="js/script.js"></script> -->
+                            <script type="text/javascript" src="Js/slider.js"></script>
+                            <script src="jquaery/jquery-3.0.0.min.js"></script>
+                            <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+                            
     </body>
 </html>
